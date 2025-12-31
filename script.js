@@ -1,7 +1,7 @@
 // Target: January 1, 2026
-//const newYear = new Date('2026-01-01T00:00:00').getTime();
+const newYear = new Date('2026-01-01T00:00:00').getTime();
 // For quick testing, you can use: 
-const newYear = Date.now() + 10000;
+//const newYear = Date.now() + 10000;
 
 const days = document.getElementById('days');
 const hours = document.getElementById('hours');
